@@ -30,9 +30,9 @@ internal class HomeAutomationAuthenticator(string login, string password) : IAut
             sessionId = info?.Element("SID")?.Value;
             
         }
-        if (service is HomeAutomationService homeAutomationService)
+        if (service is HomeAutomation homeAutomation)
         {
-            homeAutomationService.sessionId = sessionId;
+            homeAutomation.sessionId = sessionId;
         }
     }
 

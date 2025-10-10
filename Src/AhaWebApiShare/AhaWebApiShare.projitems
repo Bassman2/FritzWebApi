@@ -17,9 +17,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)ColorName.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enums\DeviceType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enums\TypeEnum.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Service\HomeAutomationAuthenticator.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Service\HomeAutomationService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Service\Model\SourceGenerationContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomeAutomation_old.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomeAutomationAuthenticator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\SourceGenerationContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MetaData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enums\SubscriptionCode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ColorControl.cs" />
@@ -54,6 +54,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Temperature.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemIdentifier.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TemplateList.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Service\HomeAutomationExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomeAutomationExtentions.cs" />
   </ItemGroup>
 </Project>
