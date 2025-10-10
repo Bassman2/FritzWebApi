@@ -17,7 +17,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ColorName.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enums\DeviceType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enums\TypeEnum.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)HomeAutomation_old.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)HomeAutomationAuthenticator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\SourceGenerationContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MetaData.cs" />
