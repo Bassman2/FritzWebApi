@@ -1,0 +1,37 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Demo/">
+    <Project Path="Demo/AhaWebApiDemo80/AhaWebApiDemo80.csproj" />
+    <Project Path="Demo/AhaWebApiDemo90/AhaWebApiDemo90.csproj" />
+    <Project Path="Demo/AhaWebApiDemoShare/AhaWebApiDemoShare.shproj" />
+  </Folder>
+  <Folder Name="/Doc/">
+    <Project Path="Doc/AhaWebApiDoc/AhaWebApiDoc.shfbproj" Type="7cf6df6d-3b04-46f8-a40b-537d21bca0b4">
+      <Platform Project="AnyCPU" />
+      <Build Solution="Debug|Any CPU" Project="false" />
+    </Project>
+  </Folder>
+  <Folder Name="/Report/">
+    <Project Path="Report/AhaReport80/AhaReport80.csproj" />
+    <Project Path="Report/AhaReport90/AhaReport90.csproj" />
+    <Project Path="Report/AhaReportShare/AhaReportShare.shproj" />
+  </Folder>
+  <Folder Name="/Src/">
+    <Project Path="../ArtifactoryWebApi/Src/ArtifactoryWebApi100/ArtifactoryWebApi100.csproj" />
+    <Project Path="../WebServiceClient/Src/WebServiceClientShare/WebServiceClientShare.shproj" />
+    <Project Path="Src/AhaWebApi80/AhaWebApi80.csproj" />
+    <Project Path="Src/AhaWebApi90/AhaWebApi90.csproj" />
+    <Project Path="Src/AhaWebApiShare/AhaWebApiShare.shproj" />
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="Test/AhaWebApiUnitTest80/AhaWebApiUnitTest80.csproj" />
+    <Project Path="Test/AhaWebApiUnitTest90/AhaWebApiUnitTest90.csproj" />
+    <Project Path="Test/AhaWebApiUnitTestShare/AhaWebApiUnitTestShare.shproj" />
+  </Folder>
+</Solution>
