@@ -1,4 +1,4 @@
-# AhaWebApi
+# FritzWebApi
 API for the AVM Home Automation Service
 
 
@@ -6,7 +6,7 @@ API for the AVM Home Automation Service
 
 ## Download
 
-[NuGet Package](https://www.nuget.org/packages/AhaWebApi/)
+[NuGet Package](https://www.nuget.org/packages/FritzWebApi/)
 
 ## Donate
 
