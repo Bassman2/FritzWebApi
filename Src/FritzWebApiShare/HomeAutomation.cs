@@ -10,7 +10,8 @@ public sealed class HomeAutomation : JsonService
     /// </summary>
     /// <param name="storeKey">The key used to identify the credential store.</param>
     /// <param name="appName">The name of the application using the service.</param>
-    public HomeAutomation(string storeKey, string appName) : base(storeKey, appName, SourceGenerationContext.Default)
+    public HomeAutomation(string storeKey, string appName) 
+        : base(storeKey, appName, SourceGenerationContext.Default)
     { }
 
     /// <summary>
@@ -19,7 +20,38 @@ public sealed class HomeAutomation : JsonService
     /// <param name="host">The URI of the home automation service host.</param>
     /// <param name="authenticator">The authenticator used for authentication, or <c>null</c> if not required.</param>
     /// <param name="appName">The name of the application using the service.</param>
-    public HomeAutomation(Uri host, IAuthenticator? authenticator, string appName) : base(host, authenticator, appName, SourceGenerationContext.Default)
+    public HomeAutomation(Uri host, IAuthenticator? authenticator, string appName) 
+        : base(host, authenticator, appName, SourceGenerationContext.Default)
+    { }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="HomeAutomation"/> class using the specified host URI and user credentials.
+    /// </summary>
+    /// <param name="host">The URI of the home automation service host.</param>
+    /// <param name="login">The username or login used for authentication.</param>
+    /// <param name="password">The password used for authentication.</param>
+    /// <param name="appName">The name of the application using the service.</param>
+    /// <remarks>
+    /// This constructor creates a <see cref="FritzAuthenticator"/> from the provided credentials and delegates
+    /// to <see cref="HomeAutomation(Uri, IAuthenticator?, string)"/>.
+    /// </remarks>
+    public HomeAutomation(Uri host, string login, string password, string appName)
+        : this(host, new FritzAuthenticator(login, password), appName)
+    { }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="HomeAutomation"/> class using the specified host (string) and user credentials.
+    /// </summary>
+    /// <param name="host">The host address (as a string) of the home automation service. This will be converted to a <see cref="Uri"/>.</param>
+    /// <param name="login">The username or login used for authentication.</param>
+    /// <param name="password">The password used for authentication.</param>
+    /// <param name="appName">The name of the application using the service.</param>
+    /// <remarks>
+    /// This constructor converts <paramref name="host"/> to a <see cref="Uri"/>, creates a <see cref="FritzAuthenticator"/>
+    /// from the provided credentials and delegates to <see cref="HomeAutomation(Uri, IAuthenticator?, string)"/>.
+    /// </remarks>
+    public HomeAutomation(string host, string login, string password, string appName)
+        : this(new Uri(host), new FritzAuthenticator(login, password), appName)
     { }
 
     internal string? sessionId;

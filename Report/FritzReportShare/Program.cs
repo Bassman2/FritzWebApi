@@ -31,7 +31,7 @@ internal class Program
 
         try
         {
-            using var client = new HomeAutomation(login, password, host);
+            using var client = new HomeAutomation(host, login, password, "Report");
             client.CreateBugReportFile();
         }
         catch (Exception ex)
