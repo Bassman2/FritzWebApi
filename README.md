@@ -1,12 +1,13 @@
 # FritzWebApi
 API for the AVM Home Automation Service
 
-
-
-
 ## Download
 
 [NuGet Package](https://www.nuget.org/packages/FritzWebApi/)
+
+## Documentation
+
+[Pages](https://bassman2.github.io/FritzWebApi/)
 
 ## Donate
 
