@@ -1,1 +1,1 @@
-nuget pack AhaWebApi.nuspec -properties Configuration=Release
+nuget pack FritzWebApi.nuspec -properties Configuration=Release

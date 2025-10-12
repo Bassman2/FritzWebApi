@@ -1,0 +1,37 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Demo/">
+    <Project Path="Demo/FritzWebApiDemo80/FritzWebApiDemo80.csproj" />
+    <Project Path="Demo/FritzWebApiDemo90/FritzWebApiDemo90.csproj" />
+    <Project Path="Demo/FritzWebApiDemoShare/FritzWebApiDemoShare.shproj" />
+  </Folder>
+  <Folder Name="/Doc/">
+    <Project Path="Doc/FritzWebApiDoc/FritzWebApiDoc.shfbproj" Type="7cf6df6d-3b04-46f8-a40b-537d21bca0b4" Id="7a0f58b4-d1bd-4f0d-b62a-63be67f9f5dc">
+      <Platform Project="AnyCPU" />
+      <Build Solution="Debug|Any CPU" Project="false" />
+    </Project>
+  </Folder>
+  <Folder Name="/Report/">
+    <Project Path="Report/FritzReport80/FritzReport80.csproj" />
+    <Project Path="Report/FritzReport90/FritzReport90.csproj" />
+    <Project Path="Report/FritzReportShare/FritzReportShare.shproj" />
+  </Folder>
+  <Folder Name="/Src/">
+    <Project Path="../ArtifactoryWebApi/Src/ArtifactoryWebApi100/ArtifactoryWebApi100.csproj" />
+    <Project Path="../WebServiceClient/Src/WebServiceClientShare/WebServiceClientShare.shproj" />
+    <Project Path="Src/FritzWebApi80/FritzWebApi80.csproj" />
+    <Project Path="Src/FritzWebApi90/FritzWebApi90.csproj" />
+    <Project Path="Src/FritzWebApiShare/FritzWebApiShare.shproj" />
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="Test/FritzWebApiUnitTest80/FritzWebApiUnitTest80.csproj" />
+    <Project Path="Test/FritzWebApiUnitTest90/FritzWebApiUnitTest90.csproj" />
+    <Project Path="Test/FritzWebApiUnitTestShare/FritzWebApiUnitTestShare.shproj" />
+  </Folder>
+</Solution>
