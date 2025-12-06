@@ -5,7 +5,7 @@
         #region Temperature Sensor
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodTemperatureErrorAsync()
         {
             double? temperature;

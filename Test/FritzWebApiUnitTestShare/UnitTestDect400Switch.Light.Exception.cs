@@ -5,7 +5,7 @@
         #region Light
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetSimpleOnOffErrorAsync()
         {
             OnOff? onOff;
@@ -19,7 +19,7 @@
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetLevelErrorAsync()
         {
             int? level;
@@ -33,7 +33,7 @@
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetLevelPercentageErrorAsync()
         {
             int? percent;
@@ -47,7 +47,7 @@
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetColorErrorAsync()
         {
             int? hue;
@@ -61,7 +61,7 @@
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetUnmappedColorErrorAsync()
         {
             int? hue;
@@ -75,7 +75,7 @@
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetColorTemperatureErrorAsync()
         {
             int? temp;

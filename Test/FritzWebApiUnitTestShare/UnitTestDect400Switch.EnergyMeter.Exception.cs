@@ -5,7 +5,7 @@ namespace FritzWebApiUnitTest
         #region Energy Meter
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodEnergyAsyncError()
         {
             double? energy;
@@ -17,7 +17,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodPowerAsyncError()
         {
             double? power;

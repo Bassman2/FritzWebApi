@@ -8,7 +8,7 @@ namespace FritzWebApiUnitTest
         #region Simple
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public void TestMethodSetSimpleOnOffError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -18,7 +18,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public async Task TestMethodSetSimpleOnOffAsyncError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -28,7 +28,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public void TestMethodSetLevelError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -38,7 +38,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public async Task TestMethodSetLevelAsyncError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -48,7 +48,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public void TestMethodSetLevelPercentageError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -58,7 +58,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public async Task TestMethodSetLevelPercentageAsyncError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -68,7 +68,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public void TestMethodSetColorError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -78,7 +78,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public async Task TestMethodSetColorAsyncError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -88,7 +88,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public void TestMethodSetUnmappedColorError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -98,7 +98,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public async Task TestMethodSetUnmappedColorAsyncError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -108,7 +108,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public void TestMethodSetColorTemperatureError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -118,7 +118,7 @@ namespace FritzWebApiUnitTest
         //}
 
         //[TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         //public async Task TestMethodSetColorTemperatureAsyncError()
         //{
         //    using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))

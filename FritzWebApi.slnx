@@ -7,6 +7,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/Demo/">
+    <Project Path="Demo/FritzWebApiDemo100/FritzWebApiDemo100.csproj" />
     <Project Path="Demo/FritzWebApiDemo80/FritzWebApiDemo80.csproj" />
     <Project Path="Demo/FritzWebApiDemo90/FritzWebApiDemo90.csproj" />
     <Project Path="Demo/FritzWebApiDemoShare/FritzWebApiDemoShare.shproj" />
@@ -23,13 +24,14 @@
     <Project Path="Report/FritzReportShare/FritzReportShare.shproj" />
   </Folder>
   <Folder Name="/Src/">
-    <Project Path="../ArtifactoryWebApi/Src/ArtifactoryWebApi100/ArtifactoryWebApi100.csproj" />
     <Project Path="../WebServiceClient/Src/WebServiceClientShare/WebServiceClientShare.shproj" />
+    <Project Path="Src/FritzWebApi100/FritzWebApi100.csproj" />
     <Project Path="Src/FritzWebApi80/FritzWebApi80.csproj" />
     <Project Path="Src/FritzWebApi90/FritzWebApi90.csproj" />
     <Project Path="Src/FritzWebApiShare/FritzWebApiShare.shproj" />
   </Folder>
   <Folder Name="/Test/">
+    <Project Path="Test/FritzWebApiUnitTest100/FritzWebApiUnitTest100.csproj" />
     <Project Path="Test/FritzWebApiUnitTest80/FritzWebApiUnitTest80.csproj" />
     <Project Path="Test/FritzWebApiUnitTest90/FritzWebApiUnitTest90.csproj" />
     <Project Path="Test/FritzWebApiUnitTestShare/FritzWebApiUnitTestShare.shproj" />

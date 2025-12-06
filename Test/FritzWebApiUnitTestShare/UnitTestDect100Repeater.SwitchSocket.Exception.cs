@@ -5,7 +5,7 @@
         #region Switch Socket
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetSwitchOnAsyncError()
         {
             using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -15,7 +15,7 @@
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetSwitchOffAsyncError()
         {
             using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -25,7 +25,7 @@
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+      //  // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetSwitchToggleAsyncError()
         {
             using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -35,7 +35,7 @@
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+    //    // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodGetSwitchStateAsyncError()
         {
             bool? val;

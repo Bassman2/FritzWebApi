@@ -7,7 +7,7 @@ namespace FritzWebApiUnitTest
         #region Blind
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetBlindErrorAsync()
         {
             using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))

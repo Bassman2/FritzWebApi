@@ -7,12 +7,12 @@
     <Nullable>enable</Nullable>
     <AssemblyName>FritzWebApiUnitTest</AssemblyName>
     <RootNamespace>FritzWebApiUnitTest</RootNamespace>
-    <Version>0.0.1.0</Version>
+    <Version>0.2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
-    <PackageReference Include="MSTest" Version="3.8.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageReference Include="MSTest" Version="4.0.2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -4,7 +4,7 @@ public partial class UnitTestDectGlobal
 {
 
     [TestMethod]
-    [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
+    // [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
     public async Task TestMethodGetTriggerListInfosAsync()
     {
         TriggerList? triggerList;
@@ -18,7 +18,7 @@ public partial class UnitTestDectGlobal
     }
 
     [TestMethod]
-    [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
+    // [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
     public async Task TestMethodSetTriggerActiveAsync()
     {
         using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))

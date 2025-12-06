@@ -9,7 +9,7 @@ namespace FritzWebApiUnitTest
         #region Light
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetSimpleOnOffErrorAsync()
         {
             OnOff? onOff;
@@ -23,7 +23,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetLevelErrorAsync()
         {
             int? level;
@@ -37,7 +37,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetLevelPercentageErrorAsync()
         {
             int? percent;
@@ -51,7 +51,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetColorErrorAsync()
         {
             int? hue;
@@ -65,7 +65,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetUnmappedColorErrorAsync()
         {
             int? hue;
@@ -79,7 +79,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        //[ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        //// [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetColorTemperatureErrorAsync()
         {
             int? temp;

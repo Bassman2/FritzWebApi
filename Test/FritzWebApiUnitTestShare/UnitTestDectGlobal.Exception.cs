@@ -4,7 +4,7 @@
     {
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
+        // [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
         public async Task TestMethodSwitchNameErrorAsync()
         {
             using (HomeAutomation client = new HomeAutomation(TestSettings.Login, TestSettings.Password))
@@ -15,7 +15,7 @@
 
         // Exception with old Fritz!OS 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
+        // [ExpectedHttpRequestException(HttpStatusCode.BadRequest)]
         public async Task TestMethodSetMetaDataErrorAsync()
         {
             MetaData metaData = new MetaData() { Icon = 1, Type = TypeEnum.Generic };

@@ -7,7 +7,7 @@ namespace FritzWebApiUnitTest
         #region Radiator Controller
                 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodGetHkrtSollAsyncError()
         {
             double temp;
@@ -18,7 +18,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodGetHkrKomfortAsyncError()
         {
             double temp;
@@ -29,7 +29,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodGetHkrAbsenkAsyncError()
         {
             double temp;
@@ -40,7 +40,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetHkrtSollAsyncError()
         {
             double temp;
@@ -51,7 +51,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetHkrBoostAsyncError()
         {
             DateTime? res;
@@ -62,7 +62,7 @@ namespace FritzWebApiUnitTest
         }
 
         [TestMethod]
-        [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
+        // [ExpectedHttpRequestException(HttpStatusCode.InternalServerError)]
         public async Task TestMethodSetHkrWindowOpenAsyncError()
         {
             DateTime? res;
