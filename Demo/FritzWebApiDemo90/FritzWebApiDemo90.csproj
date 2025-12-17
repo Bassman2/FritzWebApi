@@ -9,7 +9,7 @@
     <AssemblyName>FritzWebApiDemo</AssemblyName>
     <RootNamespace>FritzWebApiDemo</RootNamespace>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <Version>0.2.0.0</Version>
+    <Version>0.3.0.0</Version>
   </PropertyGroup>
 
  
